@@ -1,0 +1,61 @@
+A = 50
+B = 15
+Hasil_Tambahan = A + B
+Hasil_Kurangan = A - B
+Hasil_Perkalian = A * B
+Hasil_Pembagian = A / B
+
+print(Hasil_Pembagian)
+NamaBuah = {"Pepaya","Rambutan","Pisang","Mangga"}
+x,y,z,a = NamaBuah
+
+print("Buah apa saja yang ada di atas",NamaBuah)
+
+NamaBuah = {"Pepaya","Rambutan","Pisang","Mangga"}
+x,y,z,a = NamaBuah
+
+print(x)
+print(y)
+print(z)
+print(a)
+NamaBuah = {"Pepaya","Rambutan","Pisang","Mangga"}
+x,y,z,a = NamaBuah
+
+print("I Like",a)
+NamaBuah = {"Pepaya","Rambutan","Pisang","Mangga"}
+x,y,z,a = NamaBuah
+
+print("Rambutan itu huruf keempatnya adalah",y[3])
+NamaBuah = {"Pepaya","Rambutan","Pisang","Mangga"}
+x,y,z,a = NamaBuah
+
+print("Berapa huruf pada kata Pisang:",len(z))
+A = int(input("Nilai A = "))
+B = int(input("Nilai B = "))
+
+if A > B:
+  print("A Lebih Besar Dari B")
+elif A < B:
+  print("A Lebih Kecil Dari B")
+elif A == B:
+  print("A itu sama nilainya dengan B")
+else:
+  print("data yang anda masukan error")
+x = ["ucup","tatang","jajang"]
+
+print(len(x))
+list1 = ["apple", "banana", "cherry"]
+list2 = [1, 5, 7, 9, 3]
+list3 = [True, False, False]
+
+print(len(list1))
+print(len(list2))
+print(len(list3))
+A = 12
+B = "12"
+hasil = A + B
+
+print(hasil)
+x = ["ucup","tatang","jajang"]
+
+print(x[1])
